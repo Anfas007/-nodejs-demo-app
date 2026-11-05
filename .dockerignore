@@ -3,6 +3,3 @@ node_modules
 .github
 test
 npm-debug.log
-node_modules/
-.env
-*.log
