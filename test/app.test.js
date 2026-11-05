@@ -16,7 +16,7 @@ test('Homepage should return welcome message', async () => {
         assert.strictEqual(response.status, 200);
         assert.strictEqual(
             body,
-            'Hello! Welcome to my CI/CD Pipeline Demo.'
+            'Hello! Welcome to my CI/CD Pipeline wrong.'
         );
     } finally {
         await new Promise(resolve => server.close(resolve));
